@@ -1,7 +1,7 @@
 [workspace]
-members = [
-    "crates/core",
-    "crates/server",
-    "crates/generate"
-]
+members = ["crates/core", "crates/server", "crates/generate"]
 resolver = "2"
+
+[workspace.dependencies]
+serde = { version = "1.0", features = ["derive"] }
+rand = "0.8"

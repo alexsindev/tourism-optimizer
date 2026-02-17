@@ -1,0 +1,224 @@
+{
+  "name": "small",
+  "description": "15 attractions, 2 days, Bangkok area",
+  "attractions": [
+    {
+      "id": 0,
+      "name": "Grand Palace",
+      "location": {
+        "lat": 13.805308468972436,
+        "lng": 100.54870189311295
+      },
+      "open_time": 360,
+      "close_time": 1200,
+      "duration": 52,
+      "fee": 4.342133050717791,
+      "preference": 0.7321968769710603,
+      "category": "Park"
+    },
+    {
+      "id": 1,
+      "name": "Wat Pho Temple",
+      "location": {
+        "lat": 13.769234132638601,
+        "lng": 100.49974040988505
+      },
+      "open_time": 360,
+      "close_time": 1140,
+      "duration": 50,
+      "fee": 1.8577141867424918,
+      "preference": 0.8753689021110247,
+      "category": "Landmark"
+    },
+    {
+      "id": 2,
+      "name": "Chatuchak Market",
+      "location": {
+        "lat": 13.75860391325434,
+        "lng": 100.47367055898408
+      },
+      "open_time": 671,
+      "close_time": 1321,
+      "duration": 130,
+      "fee": 11.339599738585106,
+      "preference": 0.3088151002409354,
+      "category": "Entertainment"
+    },
+    {
+      "id": 3,
+      "name": "Jim Thompson House",
+      "location": {
+        "lat": 13.732383312920444,
+        "lng": 100.49816178135048
+      },
+      "open_time": 360,
+      "close_time": 1200,
+      "duration": 71,
+      "fee": 3.3108011249572424,
+      "preference": 0.9852419754602966,
+      "category": "Park"
+    },
+    {
+      "id": 4,
+      "name": "MBK Center",
+      "location": {
+        "lat": 13.736497479258082,
+        "lng": 100.4657885952102
+      },
+      "open_time": 360,
+      "close_time": 1200,
+      "duration": 67,
+      "fee": 0.4649958946491761,
+      "preference": 0.7078097246950652,
+      "category": "Park"
+    },
+    {
+      "id": 5,
+      "name": "Lumphini Park",
+      "location": {
+        "lat": 13.792839118775506,
+        "lng": 100.47135594374855
+      },
+      "open_time": 660,
+      "close_time": 1320,
+      "duration": 68,
+      "fee": 10.74628435984718,
+      "preference": 0.9518783905827297,
+      "category": "Restaurant"
+    },
+    {
+      "id": 6,
+      "name": "Wat Arun",
+      "location": {
+        "lat": 13.741717346428631,
+        "lng": 100.48948390304356
+      },
+      "open_time": 650,
+      "close_time": 1408,
+      "duration": 176,
+      "fee": 41.392644290858904,
+      "preference": 0.7196750094120098,
+      "category": "Entertainment"
+    },
+    {
+      "id": 7,
+      "name": "Khao San Road",
+      "location": {
+        "lat": 13.785696486747698,
+        "lng": 100.54032878561262
+      },
+      "open_time": 540,
+      "close_time": 1020,
+      "duration": 71,
+      "fee": 3.605784486578882,
+      "preference": 0.4731775416566142,
+      "category": "Museum"
+    },
+    {
+      "id": 8,
+      "name": "Chinatown Market",
+      "location": {
+        "lat": 13.70676955671591,
+        "lng": 100.53299137204465
+      },
+      "open_time": 540,
+      "close_time": 1020,
+      "duration": 165,
+      "fee": 7.495558392168336,
+      "preference": 0.6498754624459153,
+      "category": "Museum"
+    },
+    {
+      "id": 9,
+      "name": "Erawan Shrine",
+      "location": {
+        "lat": 13.763791946290212,
+        "lng": 100.47528683559914
+      },
+      "open_time": 713,
+      "close_time": 1428,
+      "duration": 198,
+      "fee": 41.48863076706978,
+      "preference": 0.5682308557885742,
+      "category": "Entertainment"
+    },
+    {
+      "id": 10,
+      "name": "Siam Paragon",
+      "location": {
+        "lat": 13.794721395496598,
+        "lng": 100.48186627756716
+      },
+      "open_time": 360,
+      "close_time": 1140,
+      "duration": 83,
+      "fee": 9.537137221146914,
+      "preference": 0.9478405830996559,
+      "category": "Landmark"
+    },
+    {
+      "id": 11,
+      "name": "Damnoen Saduak",
+      "location": {
+        "lat": 13.761563853657776,
+        "lng": 100.52798467317263
+      },
+      "open_time": 620,
+      "close_time": 1378,
+      "duration": 87,
+      "fee": 33.22611039016442,
+      "preference": 0.5072303302984789,
+      "category": "Entertainment"
+    },
+    {
+      "id": 12,
+      "name": "Snake Farm",
+      "location": {
+        "lat": 13.778132236579138,
+        "lng": 100.54743344657604
+      },
+      "open_time": 360,
+      "close_time": 1200,
+      "duration": 107,
+      "fee": 1.4065062285905916,
+      "preference": 0.8473307089482582,
+      "category": "Park"
+    },
+    {
+      "id": 13,
+      "name": "Vimanmek Mansion",
+      "location": {
+        "lat": 13.79929296650832,
+        "lng": 100.45586758649739
+      },
+      "open_time": 630,
+      "close_time": 1336,
+      "duration": 147,
+      "fee": 25.13965530970471,
+      "preference": 0.6412871481106528,
+      "category": "Entertainment"
+    },
+    {
+      "id": 14,
+      "name": "Asiatique Riverfront",
+      "location": {
+        "lat": 13.754132192557869,
+        "lng": 100.48039161529556
+      },
+      "open_time": 600,
+      "close_time": 1320,
+      "duration": 126,
+      "fee": 0.0,
+      "preference": 0.7242520846352165,
+      "category": "Shopping"
+    }
+  ],
+  "params": {
+    "num_days": 2,
+    "daily_time_budget": 600,
+    "total_budget": 67.5,
+    "start_time": 540,
+    "hotel_lat": 13.7563,
+    "hotel_lng": 100.5018
+  }
+}
