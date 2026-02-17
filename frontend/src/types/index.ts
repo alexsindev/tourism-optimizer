@@ -44,6 +44,8 @@ export interface SolveParams {
   start_time: number;
   hotel_lat: number;
   hotel_lng: number;
+  end_lat?: number;
+  end_lng?: number;
 }
 
 export interface DatasetInfo {

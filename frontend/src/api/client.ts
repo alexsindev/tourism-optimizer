@@ -9,10 +9,43 @@ import type {
 
 const API_BASE = "http://localhost:3000/api";
 
+// Add request interceptor for debugging
+axios.interceptors.request.use(
+  (config) => {
+    console.log("API Request:", config.method?.toUpperCase(), config.url);
+    return config;
+  },
+  (error) => {
+    console.error("API Request Error:", error);
+    return Promise.reject(error);
+  },
+);
+
+// Add response interceptor for debugging
+axios.interceptors.response.use(
+  (response) => {
+    console.log("API Response:", response.status, response.config.url);
+    return response;
+  },
+  (error) => {
+    console.error(
+      "API Response Error:",
+      error.response?.status,
+      error.response?.data || error.message,
+    );
+    return Promise.reject(error);
+  },
+);
+
 export const api = {
   async getDatasets(): Promise<DatasetInfo[]> {
-    const response = await axios.get(`${API_BASE}/datasets`);
-    return response.data;
+    try {
+      const response = await axios.get(`${API_BASE}/datasets`);
+      return response.data;
+    } catch (error) {
+      console.error("Failed to fetch datasets:", error);
+      throw error;
+    }
   },
 
   async solve(

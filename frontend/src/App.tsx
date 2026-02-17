@@ -32,6 +32,8 @@ function App() {
     useState<BenchmarkResult | null>(null);
   const [loading, setLoading] = useState(false);
   const [activeTab, setActiveTab] = useState<TabType>("itinerary");
+  const [error, setError] = useState<string | null>(null);
+  const [pinDropMode, setPinDropMode] = useState<"start" | "end" | null>(null);
 
   useEffect(() => {
     loadDatasets();
@@ -39,15 +41,24 @@ function App() {
 
   const loadDatasets = async () => {
     try {
+      setError(null);
       const data = await api.getDatasets();
+      console.log("Loaded datasets:", data);
       setDatasets(data);
+      if (data.length > 0 && !selectedDataset) {
+        setSelectedDataset(data[0].name);
+      }
     } catch (error) {
       console.error("Failed to load datasets:", error);
+      setError(
+        "Failed to connect to server. Make sure the Rust server is running on http://localhost:3000",
+      );
     }
   };
 
   const handleSolve = async () => {
     setLoading(true);
+    setError(null);
     try {
       const result = await api.solve(
         selectedAlgorithm,
@@ -56,8 +67,12 @@ function App() {
       );
       setItinerary(result);
       setActiveTab("itinerary");
-    } catch (error) {
+    } catch (error: any) {
       console.error("Failed to solve:", error);
+      setError(
+        error.response?.data?.message ||
+          "Failed to solve. Check console for details.",
+      );
     } finally {
       setLoading(false);
     }
@@ -65,15 +80,30 @@ function App() {
 
   const handleBenchmark = async () => {
     setLoading(true);
+    setError(null);
     try {
       const result = await api.benchmark(selectedDataset, params);
       setBenchmarkResult(result);
       setActiveTab("benchmark");
-    } catch (error) {
+    } catch (error: any) {
       console.error("Failed to benchmark:", error);
+      setError(
+        error.response?.data?.message ||
+          "Failed to benchmark. Check console for details.",
+      );
     } finally {
       setLoading(false);
     }
+  };
+
+  const handleStartPointChange = (lat: number, lng: number) => {
+    setParams({ ...params, hotel_lat: lat, hotel_lng: lng });
+    setPinDropMode(null);
+  };
+
+  const handleEndPointChange = (lat: number, lng: number) => {
+    setParams({ ...params, end_lat: lat, end_lng: lng });
+    setPinDropMode(null);
   };
 
   return (
@@ -84,6 +114,26 @@ function App() {
           <h1 className="text-2xl font-bold text-gray-800 mb-6">
             Tourism Route Optimizer
           </h1>
+
+          {/* Error Message */}
+          {error && (
+            <div className="mb-4 p-3 bg-red-100 border border-red-400 text-red-700 rounded">
+              <p className="text-sm">{error}</p>
+              <button
+                onClick={loadDatasets}
+                className="mt-2 text-xs underline hover:no-underline"
+              >
+                Retry
+              </button>
+            </div>
+          )}
+
+          {datasets.length === 0 && !error && (
+            <div className="mb-4 p-3 bg-yellow-100 border border-yellow-400 text-yellow-700 rounded">
+              <p className="text-sm">Loading datasets...</p>
+            </div>
+          )}
+
           <ControlPanel
             datasets={datasets}
             selectedDataset={selectedDataset}
@@ -95,13 +145,28 @@ function App() {
             onParamsChange={setParams}
             onSolve={handleSolve}
             onBenchmark={handleBenchmark}
+            pinDropMode={pinDropMode}
+            onPinDropModeChange={setPinDropMode}
           />
         </div>
       </div>
 
       {/* Center Panel - Map */}
       <div className="flex-1 relative">
-        <MapView itinerary={itinerary} params={params} />
+        {pinDropMode && (
+          <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-1000 bg-blue-500 text-white px-4 py-2 rounded-lg shadow-lg">
+            {pinDropMode === "start"
+              ? "📍 Click on map to set start point"
+              : "🏁 Click on map to set end point"}
+          </div>
+        )}
+        <MapView
+          itinerary={itinerary}
+          params={params}
+          onStartPointChange={handleStartPointChange}
+          onEndPointChange={handleEndPointChange}
+          pinDropMode={pinDropMode}
+        />
       </div>
 
       {/* Right Panel - Results */}

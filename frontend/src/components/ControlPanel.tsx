@@ -12,6 +12,8 @@ interface ControlPanelProps {
   onParamsChange: (params: SolveParams) => void;
   onSolve: () => void;
   onBenchmark: () => void;
+  pinDropMode?: "start" | "end" | null;
+  onPinDropModeChange?: (mode: "start" | "end" | null) => void;
 }
 
 const ControlPanel: React.FC<ControlPanelProps> = ({
@@ -25,6 +27,8 @@ const ControlPanel: React.FC<ControlPanelProps> = ({
   onParamsChange,
   onSolve,
   onBenchmark,
+  pinDropMode,
+  onPinDropModeChange,
 }) => {
   return (
     <div className="space-y-6">
@@ -66,6 +70,77 @@ const ControlPanel: React.FC<ControlPanelProps> = ({
       {/* Parameters */}
       <div className="space-y-4">
         <h3 className="text-sm font-medium text-gray-700">Parameters</h3>
+
+        {/* Location Selection */}
+        <div className="space-y-2">
+          <label className="block text-xs text-gray-600">Start Point</label>
+          <div className="flex items-center space-x-2">
+            <input
+              type="text"
+              value={`${params.hotel_lat.toFixed(4)}, ${params.hotel_lng.toFixed(4)}`}
+              readOnly
+              className="flex-1 px-2 py-1 text-xs border border-gray-300 rounded bg-gray-50"
+            />
+            <button
+              onClick={() =>
+                onPinDropModeChange?.(pinDropMode === "start" ? null : "start")
+              }
+              className={`px-3 py-1 text-xs rounded ${
+                pinDropMode === "start"
+                  ? "bg-blue-500 text-white"
+                  : "bg-gray-200 hover:bg-gray-300"
+              }`}
+              disabled={loading}
+            >
+              📍 {pinDropMode === "start" ? "Cancel" : "Set"}
+            </button>
+          </div>
+        </div>
+
+        <div className="space-y-2">
+          <label className="block text-xs text-gray-600">
+            End Point (Optional)
+          </label>
+          <div className="flex items-center space-x-2">
+            <input
+              type="text"
+              value={
+                params.end_lat && params.end_lng
+                  ? `${params.end_lat.toFixed(4)}, ${params.end_lng.toFixed(4)}`
+                  : "Same as start"
+              }
+              readOnly
+              className="flex-1 px-2 py-1 text-xs border border-gray-300 rounded bg-gray-50"
+            />
+            <button
+              onClick={() =>
+                onPinDropModeChange?.(pinDropMode === "end" ? null : "end")
+              }
+              className={`px-3 py-1 text-xs rounded ${
+                pinDropMode === "end"
+                  ? "bg-red-500 text-white"
+                  : "bg-gray-200 hover:bg-gray-300"
+              }`}
+              disabled={loading}
+            >
+              🏁 {pinDropMode === "end" ? "Cancel" : "Set"}
+            </button>
+          </div>
+          {params.end_lat && params.end_lng && (
+            <button
+              onClick={() =>
+                onParamsChange({
+                  ...params,
+                  end_lat: undefined,
+                  end_lng: undefined,
+                })
+              }
+              className="text-xs text-red-600 hover:underline"
+            >
+              Clear end point
+            </button>
+          )}
+        </div>
 
         <div>
           <label className="block text-xs text-gray-600 mb-1">

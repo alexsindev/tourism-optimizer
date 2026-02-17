@@ -6,6 +6,7 @@ import {
   Popup,
   Polyline,
   useMap,
+  useMapEvents,
 } from "react-leaflet";
 import L from "leaflet";
 import type { Itinerary, SolveParams } from "../types";
@@ -23,6 +24,9 @@ L.Icon.Default.mergeOptions({
 interface MapViewProps {
   itinerary: Itinerary | null;
   params: SolveParams;
+  onStartPointChange?: (lat: number, lng: number) => void;
+  onEndPointChange?: (lat: number, lng: number) => void;
+  pinDropMode?: "start" | "end" | null;
 }
 
 const MapUpdater: React.FC<{
@@ -40,10 +44,43 @@ const MapUpdater: React.FC<{
   return null;
 };
 
-const MapView: React.FC<MapViewProps> = ({ itinerary, params }) => {
+const MapClickHandler: React.FC<{
+  pinDropMode: "start" | "end" | null;
+  onStartPointChange?: (lat: number, lng: number) => void;
+  onEndPointChange?: (lat: number, lng: number) => void;
+}> = ({ pinDropMode, onStartPointChange, onEndPointChange }) => {
+  useMapEvents({
+    click: (e) => {
+      if (pinDropMode === "start" && onStartPointChange) {
+        onStartPointChange(e.latlng.lat, e.latlng.lng);
+      } else if (pinDropMode === "end" && onEndPointChange) {
+        onEndPointChange(e.latlng.lat, e.latlng.lng);
+      }
+    },
+  });
+  return null;
+};
+
+const MapView: React.FC<MapViewProps> = ({
+  itinerary,
+  params,
+  onStartPointChange,
+  onEndPointChange,
+  pinDropMode,
+}) => {
   const hotelIcon = new L.Icon({
     iconUrl:
       "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-gold.png",
+    shadowUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png",
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41],
+  });
+
+  const endIcon = new L.Icon({
+    iconUrl:
+      "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png",
     shadowUrl: "https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png",
     iconSize: [25, 41],
     iconAnchor: [12, 41],
@@ -73,11 +110,32 @@ const MapView: React.FC<MapViewProps> = ({ itinerary, params }) => {
 
       <Marker position={[params.hotel_lat, params.hotel_lng]} icon={hotelIcon}>
         <Popup>
-          <strong>🏨 Hotel</strong>
+          <strong>🏨 Start Point</strong>
           <br />
-          Starting/Ending Point
+          {pinDropMode === "start"
+            ? "Click map to move"
+            : "Starting point for each day"}
         </Popup>
       </Marker>
+
+      {/* End point marker (if different from start) */}
+      {params.end_lat && params.end_lng && (
+        <Marker position={[params.end_lat, params.end_lng]} icon={endIcon}>
+          <Popup>
+            <strong>🏁 End Point</strong>
+            <br />
+            {pinDropMode === "end"
+              ? "Click map to move"
+              : "Ending point for each day"}
+          </Popup>
+        </Marker>
+      )}
+
+      <MapClickHandler
+        pinDropMode={pinDropMode}
+        onStartPointChange={onStartPointChange}
+        onEndPointChange={onEndPointChange}
+      />
 
       {itinerary?.days.map((day) => {
         const color = getDayColor(day.day);

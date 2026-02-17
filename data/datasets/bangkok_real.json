@@ -1,0 +1,2802 @@
+[
+  {
+    "id": 1,
+    "name": "Manna",
+    "location": {
+      "lat": 13.7477023,
+      "lng": 100.5345542
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.513,
+    "category": "Restaurant"
+  },
+  {
+    "id": 2,
+    "name": "Zen",
+    "location": {
+      "lat": 13.7281063,
+      "lng": 100.5331414
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.526,
+    "category": "Restaurant"
+  },
+  {
+    "id": 3,
+    "name": "Pola Pola",
+    "location": {
+      "lat": 13.7272399,
+      "lng": 100.5335418
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.539,
+    "category": "Restaurant"
+  },
+  {
+    "id": 4,
+    "name": "Cafe Bangrak",
+    "location": {
+      "lat": 13.7289158,
+      "lng": 100.5355833
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.552,
+    "category": "Restaurant"
+  },
+  {
+    "id": 5,
+    "name": "Mimy's",
+    "location": {
+      "lat": 13.7272956,
+      "lng": 100.5364037
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.565,
+    "category": "Restaurant"
+  },
+  {
+    "id": 6,
+    "name": "Zanotti",
+    "location": {
+      "lat": 13.7268964,
+      "lng": 100.5367763
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.578,
+    "category": "Restaurant"
+  },
+  {
+    "id": 7,
+    "name": "Cafe Turin",
+    "location": {
+      "lat": 13.7269174,
+      "lng": 100.5370033
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.591,
+    "category": "Restaurant"
+  },
+  {
+    "id": 8,
+    "name": "The Front Page",
+    "location": {
+      "lat": 13.7269776,
+      "lng": 100.5416951
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.604,
+    "category": "Restaurant"
+  },
+  {
+    "id": 9,
+    "name": "Cafe D'Oro",
+    "location": {
+      "lat": 13.7253756,
+      "lng": 100.537783
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.617,
+    "category": "Restaurant"
+  },
+  {
+    "id": 10,
+    "name": "Smiths Bar",
+    "location": {
+      "lat": 13.7585554,
+      "lng": 100.4959363
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.63,
+    "category": "Restaurant"
+  },
+  {
+    "id": 11,
+    "name": "Sirocco",
+    "location": {
+      "lat": 13.7212917,
+      "lng": 100.5168726
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.643,
+    "category": "Restaurant"
+  },
+  {
+    "id": 12,
+    "name": "พิพิธภัณฑสถานธรรมชาติวิทยาฯ",
+    "location": {
+      "lat": 13.7374778,
+      "lng": 100.5300846
+    },
+    "open_time": 540,
+    "close_time": 1020,
+    "duration": 90,
+    "fee": 10.0,
+    "preference": 0.656,
+    "category": "Museum"
+  },
+  {
+    "id": 13,
+    "name": "กัลปพฤกษ์",
+    "location": {
+      "lat": 13.7226497,
+      "lng": 100.5220688
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.669,
+    "category": "Restaurant"
+  },
+  {
+    "id": 14,
+    "name": "มิซาโตะ",
+    "location": {
+      "lat": 13.7300628,
+      "lng": 100.5340962
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.6819999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 15,
+    "name": "Ronny's New York Pizza",
+    "location": {
+      "lat": 13.7386706,
+      "lng": 100.5529521
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.695,
+    "category": "Restaurant"
+  },
+  {
+    "id": 16,
+    "name": "ผ่านฟ้าลีลาศ",
+    "location": {
+      "lat": 13.7555116,
+      "lng": 100.506445
+    },
+    "open_time": 360,
+    "close_time": 1080,
+    "duration": 45,
+    "fee": 5.0,
+    "preference": 0.708,
+    "category": "Landmark"
+  },
+  {
+    "id": 17,
+    "name": "Hemlock",
+    "location": {
+      "lat": 13.7619476,
+      "lng": 100.4934922
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.721,
+    "category": "Restaurant"
+  },
+  {
+    "id": 18,
+    "name": "เป็ดท่าดินแดง",
+    "location": {
+      "lat": 13.8018073,
+      "lng": 100.5815635
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.734,
+    "category": "Restaurant"
+  },
+  {
+    "id": 19,
+    "name": "Cabbages & Condoms",
+    "location": {
+      "lat": 13.7364794,
+      "lng": 100.557891
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.747,
+    "category": "Restaurant"
+  },
+  {
+    "id": 20,
+    "name": "กินรี เวนิว",
+    "location": {
+      "lat": 13.7379539,
+      "lng": 100.5562983
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.76,
+    "category": "Restaurant"
+  },
+  {
+    "id": 21,
+    "name": "Tsu Nami",
+    "location": {
+      "lat": 13.7423469,
+      "lng": 100.5519642
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.7729999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 22,
+    "name": "The Family",
+    "location": {
+      "lat": 13.7601131,
+      "lng": 100.5027895
+    },
+    "open_time": 720,
+    "close_time": 1380,
+    "duration": 120,
+    "fee": 25.0,
+    "preference": 0.786,
+    "category": "Entertainment"
+  },
+  {
+    "id": 23,
+    "name": "Bei Otto",
+    "location": {
+      "lat": 13.7333712,
+      "lng": 100.5640523
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.7989999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 24,
+    "name": "Talay Bangkok",
+    "location": {
+      "lat": 13.7537457,
+      "lng": 100.5780742
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.812,
+    "category": "Restaurant"
+  },
+  {
+    "id": 25,
+    "name": "Ranee's",
+    "location": {
+      "lat": 13.7588601,
+      "lng": 100.4957092
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.825,
+    "category": "Restaurant"
+  },
+  {
+    "id": 26,
+    "name": "Suksabai",
+    "location": {
+      "lat": 13.7595785,
+      "lng": 100.4975588
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.838,
+    "category": "Restaurant"
+  },
+  {
+    "id": 27,
+    "name": "Ricky's",
+    "location": {
+      "lat": 13.7617909,
+      "lng": 100.4933068
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.851,
+    "category": "Restaurant"
+  },
+  {
+    "id": 28,
+    "name": "Green House",
+    "location": {
+      "lat": 13.7600235,
+      "lng": 100.4970558
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.864,
+    "category": "Restaurant"
+  },
+  {
+    "id": 29,
+    "name": "ฮะจิบัง ราเมน",
+    "location": {
+      "lat": 13.768767,
+      "lng": 100.571906
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.877,
+    "category": "Restaurant"
+  },
+  {
+    "id": 30,
+    "name": "เมธาวลัยศรแดง",
+    "location": {
+      "lat": 13.7561123,
+      "lng": 100.5020888
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.8899999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 31,
+    "name": "Lido",
+    "location": {
+      "lat": 13.7207788,
+      "lng": 100.5472935
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.903,
+    "category": "Restaurant"
+  },
+  {
+    "id": 32,
+    "name": "สเต็กบ้านตราใจ",
+    "location": {
+      "lat": 13.7209757,
+      "lng": 100.5473234
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.9159999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 33,
+    "name": "Tom Yum Kung",
+    "location": {
+      "lat": 13.7592028,
+      "lng": 100.495854
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.929,
+    "category": "Restaurant"
+  },
+  {
+    "id": 34,
+    "name": "Taketei",
+    "location": {
+      "lat": 13.7581382,
+      "lng": 100.4980198
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.942,
+    "category": "Restaurant"
+  },
+  {
+    "id": 35,
+    "name": "Thai & Myanmar Foods",
+    "location": {
+      "lat": 13.7225553,
+      "lng": 100.523745
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.955,
+    "category": "Restaurant"
+  },
+  {
+    "id": 36,
+    "name": "บ้านส้มตำ",
+    "location": {
+      "lat": 13.7205292,
+      "lng": 100.5204597
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.968,
+    "category": "Restaurant"
+  },
+  {
+    "id": 37,
+    "name": "To-Sit Pier 92",
+    "location": {
+      "lat": 13.7990775,
+      "lng": 100.5145264
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.981,
+    "category": "Restaurant"
+  },
+  {
+    "id": 38,
+    "name": "Café Amazon",
+    "location": {
+      "lat": 13.7426341,
+      "lng": 100.4961389
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.994,
+    "category": "Restaurant"
+  },
+  {
+    "id": 39,
+    "name": "ราดหน้าผัดซีอิ๊วรสเลิศ",
+    "location": {
+      "lat": 13.7333894,
+      "lng": 100.4911333
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.507,
+    "category": "Restaurant"
+  },
+  {
+    "id": 40,
+    "name": "Outback Steakhouse",
+    "location": {
+      "lat": 13.7469977,
+      "lng": 100.5313636
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.52,
+    "category": "Restaurant"
+  },
+  {
+    "id": 41,
+    "name": "Joy Luck Club",
+    "location": {
+      "lat": 13.763568,
+      "lng": 100.4959854
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.533,
+    "category": "Restaurant"
+  },
+  {
+    "id": 42,
+    "name": "Siri-Rattana",
+    "location": {
+      "lat": 13.7582296,
+      "lng": 100.4983435
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.5459999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 43,
+    "name": "White conner's",
+    "location": {
+      "lat": 13.7629341,
+      "lng": 100.499823
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.5589999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 44,
+    "name": "One More",
+    "location": {
+      "lat": 13.7417286,
+      "lng": 100.513488
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.572,
+    "category": "Restaurant"
+  },
+  {
+    "id": 45,
+    "name": "Vertigo",
+    "location": {
+      "lat": 13.7234481,
+      "lng": 100.5396902
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.585,
+    "category": "Restaurant"
+  },
+  {
+    "id": 46,
+    "name": "Starbucks",
+    "location": {
+      "lat": 13.7421275,
+      "lng": 100.5516431
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.598,
+    "category": "Restaurant"
+  },
+  {
+    "id": 47,
+    "name": "Bourbon Street",
+    "location": {
+      "lat": 13.7224571,
+      "lng": 100.5844887
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.611,
+    "category": "Restaurant"
+  },
+  {
+    "id": 48,
+    "name": "Starbucks",
+    "location": {
+      "lat": 13.7010325,
+      "lng": 100.5367391
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.624,
+    "category": "Restaurant"
+  },
+  {
+    "id": 49,
+    "name": "Anna & Charlie's Cafe",
+    "location": {
+      "lat": 13.7015627,
+      "lng": 100.5415266
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.637,
+    "category": "Restaurant"
+  },
+  {
+    "id": 50,
+    "name": "ราเม็งเทอิ",
+    "location": {
+      "lat": 13.7287791,
+      "lng": 100.5301493
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.65,
+    "category": "Restaurant"
+  },
+  {
+    "id": 51,
+    "name": "การิม โรตี-มะตะบะ",
+    "location": {
+      "lat": 13.7636489,
+      "lng": 100.4957444
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.6629999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 52,
+    "name": "ช้าวแกงปักษ์ใต้",
+    "location": {
+      "lat": 13.7890502,
+      "lng": 100.5876301
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.6759999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 53,
+    "name": "Ratsstube",
+    "location": {
+      "lat": 13.7244287,
+      "lng": 100.5457047
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.689,
+    "category": "Restaurant"
+  },
+  {
+    "id": 54,
+    "name": "ก๋วยเตี๋ยวตะแคงชาม",
+    "location": {
+      "lat": 13.7903919,
+      "lng": 100.5825801
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.702,
+    "category": "Restaurant"
+  },
+  {
+    "id": 55,
+    "name": "เป็ดย่างนาทอง",
+    "location": {
+      "lat": 13.7898352,
+      "lng": 100.5747223
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.715,
+    "category": "Restaurant"
+  },
+  {
+    "id": 56,
+    "name": "เนื้อย่างกิวกิวเต้",
+    "location": {
+      "lat": 13.7838673,
+      "lng": 100.587021
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.728,
+    "category": "Restaurant"
+  },
+  {
+    "id": 57,
+    "name": "มาดามทุสโซ กรุงเทพฯ",
+    "location": {
+      "lat": 13.7464988,
+      "lng": 100.5317246
+    },
+    "open_time": 540,
+    "close_time": 1020,
+    "duration": 90,
+    "fee": 10.0,
+    "preference": 0.741,
+    "category": "Museum"
+  },
+  {
+    "id": 58,
+    "name": "Scala Shark's Fin",
+    "location": {
+      "lat": 13.7472123,
+      "lng": 100.5346032
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.754,
+    "category": "Restaurant"
+  },
+  {
+    "id": 59,
+    "name": "The Grill Tokyo",
+    "location": {
+      "lat": 13.7474182,
+      "lng": 100.5346401
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.767,
+    "category": "Restaurant"
+  },
+  {
+    "id": 60,
+    "name": "MK Restaurants",
+    "location": {
+      "lat": 13.7459476,
+      "lng": 100.5346988
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.7799999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 61,
+    "name": "Tony Roma's",
+    "location": {
+      "lat": 13.7479106,
+      "lng": 100.5347366
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.7929999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 62,
+    "name": "Ootoya Kitchen",
+    "location": {
+      "lat": 13.7458667,
+      "lng": 100.5349454
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.8059999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 63,
+    "name": "Belguardo",
+    "location": {
+      "lat": 13.7470496,
+      "lng": 100.5345741
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.819,
+    "category": "Restaurant"
+  },
+  {
+    "id": 64,
+    "name": "Kabuki",
+    "location": {
+      "lat": 13.7474468,
+      "lng": 100.5343316
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.832,
+    "category": "Restaurant"
+  },
+  {
+    "id": 65,
+    "name": "Fuji",
+    "location": {
+      "lat": 13.7459962,
+      "lng": 100.5345509
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.845,
+    "category": "Restaurant"
+  },
+  {
+    "id": 66,
+    "name": "La'Espace d l'Oriental",
+    "location": {
+      "lat": 13.7460531,
+      "lng": 100.5349134
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.858,
+    "category": "Restaurant"
+  },
+  {
+    "id": 67,
+    "name": "Starbucks",
+    "location": {
+      "lat": 13.7463316,
+      "lng": 100.5341278
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.871,
+    "category": "Restaurant"
+  },
+  {
+    "id": 68,
+    "name": "Cafe Chilli",
+    "location": {
+      "lat": 13.7478012,
+      "lng": 100.5346696
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.884,
+    "category": "Restaurant"
+  },
+  {
+    "id": 69,
+    "name": "Ootoya",
+    "location": {
+      "lat": 13.7464823,
+      "lng": 100.5341553
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.8969999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 70,
+    "name": "Coffee Beans by Dao",
+    "location": {
+      "lat": 13.7466547,
+      "lng": 100.5345033
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.9099999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 71,
+    "name": "Amici by Pomodoro",
+    "location": {
+      "lat": 13.7472697,
+      "lng": 100.5342992
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.9229999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 72,
+    "name": "Crystal Jade Golden Palace",
+    "location": {
+      "lat": 13.7476789,
+      "lng": 100.5348868
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.9359999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 73,
+    "name": "Vanilla Brasserie",
+    "location": {
+      "lat": 13.7470132,
+      "lng": 100.5342524
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.949,
+    "category": "Restaurant"
+  },
+  {
+    "id": 74,
+    "name": "Aoi",
+    "location": {
+      "lat": 13.7475825,
+      "lng": 100.5344228
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.962,
+    "category": "Restaurant"
+  },
+  {
+    "id": 75,
+    "name": "Whittard of Chelsea",
+    "location": {
+      "lat": 13.7473687,
+      "lng": 100.5344925
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.975,
+    "category": "Restaurant"
+  },
+  {
+    "id": 76,
+    "name": "Taling pling",
+    "location": {
+      "lat": 13.7471204,
+      "lng": 100.534272
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.988,
+    "category": "Restaurant"
+  },
+  {
+    "id": 77,
+    "name": "Four Seasons",
+    "location": {
+      "lat": 13.746761,
+      "lng": 100.5345223
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.5009999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 78,
+    "name": "ร้านอาหารตามสั่ง",
+    "location": {
+      "lat": 13.7896795,
+      "lng": 100.5777958
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.514,
+    "category": "Restaurant"
+  },
+  {
+    "id": 79,
+    "name": "Another Hound by Greyhound Café",
+    "location": {
+      "lat": 13.7463522,
+      "lng": 100.5341953
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.5269999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 80,
+    "name": "Thann Restaurant",
+    "location": {
+      "lat": 13.7475934,
+      "lng": 100.5346705
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.54,
+    "category": "Restaurant"
+  },
+  {
+    "id": 81,
+    "name": "The Pavilion",
+    "location": {
+      "lat": 13.7349086,
+      "lng": 100.5626186
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.5529999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 82,
+    "name": "P.Kitchen",
+    "location": {
+      "lat": 13.7330572,
+      "lng": 100.5628566
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.5660000000000001,
+    "category": "Restaurant"
+  },
+  {
+    "id": 83,
+    "name": "Metro Cafe",
+    "location": {
+      "lat": 13.7328774,
+      "lng": 100.5626152
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.579,
+    "category": "Restaurant"
+  },
+  {
+    "id": 84,
+    "name": "Cajutan",
+    "location": {
+      "lat": 13.7320775,
+      "lng": 100.5628405
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.5919999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 85,
+    "name": "The Frog Pond",
+    "location": {
+      "lat": 13.7622659,
+      "lng": 100.4952579
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.605,
+    "category": "Restaurant"
+  },
+  {
+    "id": 86,
+    "name": "Starbucks",
+    "location": {
+      "lat": 13.7797359,
+      "lng": 100.544962
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.6179999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 87,
+    "name": "Tensui",
+    "location": {
+      "lat": 13.7318072,
+      "lng": 100.5611871
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.631,
+    "category": "Restaurant"
+  },
+  {
+    "id": 88,
+    "name": "อยู่บ้าน",
+    "location": {
+      "lat": 13.7455137,
+      "lng": 100.5323253
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.6439999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 89,
+    "name": "สีฟ้า",
+    "location": {
+      "lat": 13.7439701,
+      "lng": 100.533657
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.657,
+    "category": "Restaurant"
+  },
+  {
+    "id": 90,
+    "name": "ส้มตำนัว Som tam nua",
+    "location": {
+      "lat": 13.7444363,
+      "lng": 100.5343576
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.6699999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 91,
+    "name": "ต้นโอ๊ค",
+    "location": {
+      "lat": 13.7455672,
+      "lng": 100.5323347
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.683,
+    "category": "Restaurant"
+  },
+  {
+    "id": 92,
+    "name": "เอสแอนด์พี",
+    "location": {
+      "lat": 13.8001841,
+      "lng": 100.5749583
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.696,
+    "category": "Restaurant"
+  },
+  {
+    "id": 93,
+    "name": "True Coffee",
+    "location": {
+      "lat": 13.745542,
+      "lng": 100.5334569
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.7089999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 94,
+    "name": "แซบ-เบ๊",
+    "location": {
+      "lat": 13.7513157,
+      "lng": 100.510866
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.722,
+    "category": "Restaurant"
+  },
+  {
+    "id": 95,
+    "name": "Asian",
+    "location": {
+      "lat": 13.7810325,
+      "lng": 100.5758991
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.7349999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 96,
+    "name": "Noodle House",
+    "location": {
+      "lat": 13.7451205,
+      "lng": 100.5321502
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.748,
+    "category": "Restaurant"
+  },
+  {
+    "id": 97,
+    "name": "Ramen",
+    "location": {
+      "lat": 13.744999,
+      "lng": 100.5319346
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.7609999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 98,
+    "name": "กิเลน",
+    "location": {
+      "lat": 13.7451031,
+      "lng": 100.5319489
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.774,
+    "category": "Restaurant"
+  },
+  {
+    "id": 99,
+    "name": "ข้าวยำตำเตี๋ยว",
+    "location": {
+      "lat": 13.745144,
+      "lng": 100.5319575
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.7869999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 100,
+    "name": "ครัวสาทร",
+    "location": {
+      "lat": 13.7449958,
+      "lng": 100.5322565
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.8,
+    "category": "Restaurant"
+  },
+  {
+    "id": 101,
+    "name": "บางกอกหูฉลาม",
+    "location": {
+      "lat": 13.745642,
+      "lng": 100.5317422
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.813,
+    "category": "Restaurant"
+  },
+  {
+    "id": 102,
+    "name": "หูฉลามปีนัง",
+    "location": {
+      "lat": 13.7456973,
+      "lng": 100.53175
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.8259999999999998,
+    "category": "Restaurant"
+  },
+  {
+    "id": 103,
+    "name": "หูฉลามสกาลา",
+    "location": {
+      "lat": 13.7457552,
+      "lng": 100.5317641
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.839,
+    "category": "Restaurant"
+  },
+  {
+    "id": 104,
+    "name": "เดอะครก",
+    "location": {
+      "lat": 13.7452024,
+      "lng": 100.5319693
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.8519999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 105,
+    "name": "True Coffee",
+    "location": {
+      "lat": 13.7446826,
+      "lng": 100.5326308
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.865,
+    "category": "Restaurant"
+  },
+  {
+    "id": 106,
+    "name": "To Sit",
+    "location": {
+      "lat": 13.744779,
+      "lng": 100.5327005
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.8779999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 107,
+    "name": "Salt",
+    "location": {
+      "lat": 13.7826402,
+      "lng": 100.5425957
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.891,
+    "category": "Restaurant"
+  },
+  {
+    "id": 108,
+    "name": "Dalad",
+    "location": {
+      "lat": 13.7835553,
+      "lng": 100.5432856
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.9039999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 109,
+    "name": "คาเฟ เมซามี",
+    "location": {
+      "lat": 13.7206406,
+      "lng": 100.4953819
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.917,
+    "category": "Restaurant"
+  },
+  {
+    "id": 110,
+    "name": "13 Coins restaurant",
+    "location": {
+      "lat": 13.778878,
+      "lng": 100.5383131
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.9299999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 111,
+    "name": "Suankularb restaurant",
+    "location": {
+      "lat": 13.7774296,
+      "lng": 100.5395791
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.9429999999999998,
+    "category": "Restaurant"
+  },
+  {
+    "id": 112,
+    "name": "roasted chicken",
+    "location": {
+      "lat": 13.780144,
+      "lng": 100.5358562
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.956,
+    "category": "Restaurant"
+  },
+  {
+    "id": 113,
+    "name": "พิพิธภัณฑ์ปลากัดสยาม",
+    "location": {
+      "lat": 13.6998906,
+      "lng": 100.56285
+    },
+    "open_time": 540,
+    "close_time": 1020,
+    "duration": 90,
+    "fee": 10.0,
+    "preference": 0.9689999999999999,
+    "category": "Museum"
+  },
+  {
+    "id": 114,
+    "name": "บีเคเค เบเกิล เบเกอรี่",
+    "location": {
+      "lat": 13.7438912,
+      "lng": 100.5420395
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.982,
+    "category": "Restaurant"
+  },
+  {
+    "id": 115,
+    "name": "Chilli Culture",
+    "location": {
+      "lat": 13.745087,
+      "lng": 100.5567102
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.9949999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 116,
+    "name": "สุกี้เจหรูยี่",
+    "location": {
+      "lat": 13.7381165,
+      "lng": 100.5181804
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.508,
+    "category": "Restaurant"
+  },
+  {
+    "id": 117,
+    "name": "ทิพย์สมัย",
+    "location": {
+      "lat": 13.7527631,
+      "lng": 100.5048237
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.5209999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 118,
+    "name": "Tawandang German Brewery",
+    "location": {
+      "lat": 13.696824,
+      "lng": 100.545788
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.534,
+    "category": "Restaurant"
+  },
+  {
+    "id": 119,
+    "name": "สะพานพระราม 8",
+    "location": {
+      "lat": 13.7696454,
+      "lng": 100.4958557
+    },
+    "open_time": 360,
+    "close_time": 1080,
+    "duration": 45,
+    "fee": 5.0,
+    "preference": 0.5469999999999999,
+    "category": "Landmark"
+  },
+  {
+    "id": 120,
+    "name": "ราดหน้ายอดผัก นายเคี้ยง เอ็มไพร์",
+    "location": {
+      "lat": 13.7128053,
+      "lng": 100.436352
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.5599999999999998,
+    "category": "Restaurant"
+  },
+  {
+    "id": 121,
+    "name": "บางหว้ารสเด็ด",
+    "location": {
+      "lat": 13.7128313,
+      "lng": 100.4366786
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.573,
+    "category": "Restaurant"
+  },
+  {
+    "id": 122,
+    "name": "มิสเตอร์ฟิวส์ กาแฟสด",
+    "location": {
+      "lat": 13.7129512,
+      "lng": 100.4378131
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.5859999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 123,
+    "name": "BB สวนอาหาร",
+    "location": {
+      "lat": 13.713704,
+      "lng": 100.440653
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.599,
+    "category": "Restaurant"
+  },
+  {
+    "id": 124,
+    "name": "แกงใต้",
+    "location": {
+      "lat": 13.7144962,
+      "lng": 100.4431045
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.6119999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 125,
+    "name": "รอยยิ้ม สเต็ก & นมสด",
+    "location": {
+      "lat": 13.7145744,
+      "lng": 100.4433244
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.625,
+    "category": "Restaurant"
+  },
+  {
+    "id": 126,
+    "name": "ภัตตาคารริมทาง",
+    "location": {
+      "lat": 13.7151672,
+      "lng": 100.4450652
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.6379999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 127,
+    "name": "ลิ้น เล่า ซา ลูกชิ้นปลาเต้นได้",
+    "location": {
+      "lat": 13.715188,
+      "lng": 100.4451269
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.651,
+    "category": "Restaurant"
+  },
+  {
+    "id": 128,
+    "name": "งุ่ยเม่งเฮียง",
+    "location": {
+      "lat": 13.7159593,
+      "lng": 100.4475489
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.6639999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 129,
+    "name": "ริมน้ำเจ้าพระยาหมูกะทะ",
+    "location": {
+      "lat": 13.7174759,
+      "lng": 100.4522428
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.6769999999999998,
+    "category": "Restaurant"
+  },
+  {
+    "id": 130,
+    "name": "เจียงลูกชิ้นปลา สาขาเพชรเกษม",
+    "location": {
+      "lat": 13.7198558,
+      "lng": 100.4557426
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.69,
+    "category": "Restaurant"
+  },
+  {
+    "id": 131,
+    "name": "ตาหน๊ำบะหมี่เกี๊ยว 80 ปี & ชาลีสเต็กส์",
+    "location": {
+      "lat": 13.7192904,
+      "lng": 100.4548011
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.7029999999999998,
+    "category": "Restaurant"
+  },
+  {
+    "id": 132,
+    "name": "ร้านอาหารตามสั่ง",
+    "location": {
+      "lat": 13.7200743,
+      "lng": 100.455217
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.716,
+    "category": "Restaurant"
+  },
+  {
+    "id": 133,
+    "name": "ก๋วยเตี๋ยวหมูตุ๋น (รสสะเด็ด)",
+    "location": {
+      "lat": 13.7226278,
+      "lng": 100.4543936
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.7289999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 134,
+    "name": "ร้านขาประจำ สาขา 2",
+    "location": {
+      "lat": 13.7252256,
+      "lng": 100.4525482
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.742,
+    "category": "Restaurant"
+  },
+  {
+    "id": 135,
+    "name": "Prince of เกาะพงัน Beach & Restuarant",
+    "location": {
+      "lat": 13.7262133,
+      "lng": 100.4519017
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.7549999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 136,
+    "name": "Prince of เกาะพงัน Coffe",
+    "location": {
+      "lat": 13.7261194,
+      "lng": 100.4519581
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.768,
+    "category": "Restaurant"
+  },
+  {
+    "id": 137,
+    "name": "Sea Time",
+    "location": {
+      "lat": 13.729319,
+      "lng": 100.4517596
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.7809999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 138,
+    "name": "The Deck",
+    "location": {
+      "lat": 13.7448593,
+      "lng": 100.4911918
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.7939999999999998,
+    "category": "Restaurant"
+  },
+  {
+    "id": 139,
+    "name": "โคขุน ซอยเพชรเกษม 38",
+    "location": {
+      "lat": 13.7182053,
+      "lng": 100.4524437
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.8069999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 140,
+    "name": "Sit 'n Sip Cafe",
+    "location": {
+      "lat": 13.7179005,
+      "lng": 100.4519207
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.8199999999999998,
+    "category": "Restaurant"
+  },
+  {
+    "id": 141,
+    "name": "ร้านอาหารเพลิน",
+    "location": {
+      "lat": 13.8259618,
+      "lng": 100.5571309
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.833,
+    "category": "Restaurant"
+  },
+  {
+    "id": 142,
+    "name": "ขนมจีนล้านนา",
+    "location": {
+      "lat": 13.7193783,
+      "lng": 100.4500309
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.8459999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 143,
+    "name": "ขนมจีน พศช.",
+    "location": {
+      "lat": 13.7194186,
+      "lng": 100.447832
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.859,
+    "category": "Restaurant"
+  },
+  {
+    "id": 144,
+    "name": "เพชรเกษมเนื้อตุ๋น",
+    "location": {
+      "lat": 13.7160155,
+      "lng": 100.4462549
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.8719999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 145,
+    "name": "เรือนก๋วยเตี๋ยวพิมแก้ว",
+    "location": {
+      "lat": 13.7159321,
+      "lng": 100.4460108
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.885,
+    "category": "Restaurant"
+  },
+  {
+    "id": 146,
+    "name": "บางหว้าขาหมู",
+    "location": {
+      "lat": 13.7157367,
+      "lng": 100.4454288
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.8979999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 147,
+    "name": "คอฟฟี่เบรค",
+    "location": {
+      "lat": 13.7154475,
+      "lng": 100.444549
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.9109999999999998,
+    "category": "Restaurant"
+  },
+  {
+    "id": 148,
+    "name": "ข้าวมันไก่",
+    "location": {
+      "lat": 13.715622,
+      "lng": 100.444211
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.9239999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 149,
+    "name": "กาแฟสด",
+    "location": {
+      "lat": 13.7168049,
+      "lng": 100.4441612
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.9369999999999998,
+    "category": "Restaurant"
+  },
+  {
+    "id": 150,
+    "name": "คัตสึชิน",
+    "location": {
+      "lat": 13.7290409,
+      "lng": 100.5300445
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.95,
+    "category": "Restaurant"
+  },
+  {
+    "id": 151,
+    "name": "ไดมาสุ",
+    "location": {
+      "lat": 13.7289921,
+      "lng": 100.5300588
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.9629999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 152,
+    "name": "มอกโกริ ราเม็ง",
+    "location": {
+      "lat": 13.728159,
+      "lng": 100.5289981
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.976,
+    "category": "Restaurant"
+  },
+  {
+    "id": 153,
+    "name": "Pladib",
+    "location": {
+      "lat": 13.7796045,
+      "lng": 100.5368512
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.9889999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 154,
+    "name": "ล้านข้าว",
+    "location": {
+      "lat": 13.8040654,
+      "lng": 100.5769614
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.5019999999999998,
+    "category": "Restaurant"
+  },
+  {
+    "id": 155,
+    "name": "Saigon Recipe",
+    "location": {
+      "lat": 13.7322226,
+      "lng": 100.5765861
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.5150000000000001,
+    "category": "Restaurant"
+  },
+  {
+    "id": 156,
+    "name": "ร้านอาหารน้องหนึ่ง",
+    "location": {
+      "lat": 13.7151578,
+      "lng": 100.4380361
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.528,
+    "category": "Restaurant"
+  },
+  {
+    "id": 157,
+    "name": "ฟู้ดพาราไดซ์",
+    "location": {
+      "lat": 13.7134023,
+      "lng": 100.4369451
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.5409999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 158,
+    "name": "Be Organic by Lemon Farm",
+    "location": {
+      "lat": 13.7422316,
+      "lng": 100.5436779
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.5539999999999998,
+    "category": "Restaurant"
+  },
+  {
+    "id": 159,
+    "name": "Juize etc.",
+    "location": {
+      "lat": 13.7420049,
+      "lng": 100.5436456
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.5669999999999997,
+    "category": "Restaurant"
+  },
+  {
+    "id": 160,
+    "name": "Spoonful Zakka cafe",
+    "location": {
+      "lat": 13.742217,
+      "lng": 100.5439247
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.5800000000000001,
+    "category": "Restaurant"
+  },
+  {
+    "id": 161,
+    "name": "milk solid",
+    "location": {
+      "lat": 13.74217,
+      "lng": 100.5439193
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.593,
+    "category": "Restaurant"
+  },
+  {
+    "id": 162,
+    "name": "Pause II Play",
+    "location": {
+      "lat": 13.7419984,
+      "lng": 100.5437614
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.6059999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 163,
+    "name": "Emperor Yakiniku Buffet",
+    "location": {
+      "lat": 13.7419775,
+      "lng": 100.5439152
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.6189999999999998,
+    "category": "Restaurant"
+  },
+  {
+    "id": 164,
+    "name": "D'Orsay",
+    "location": {
+      "lat": 13.7422185,
+      "lng": 100.5437922
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.6320000000000001,
+    "category": "Restaurant"
+  },
+  {
+    "id": 165,
+    "name": "Saboten",
+    "location": {
+      "lat": 13.7419945,
+      "lng": 100.5436691
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.645,
+    "category": "Restaurant"
+  },
+  {
+    "id": 166,
+    "name": "kopitiam restaurant",
+    "location": {
+      "lat": 13.741958,
+      "lng": 100.5439051
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.6579999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 167,
+    "name": "Greyhound Cafe",
+    "location": {
+      "lat": 13.7800253,
+      "lng": 100.5451683
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.6709999999999998,
+    "category": "Restaurant"
+  },
+  {
+    "id": 168,
+    "name": "WINE CONNECTION DELI&BISTRO",
+    "location": {
+      "lat": 13.7206197,
+      "lng": 100.5688639
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.6839999999999997,
+    "category": "Restaurant"
+  },
+  {
+    "id": 169,
+    "name": "Tom N Toms",
+    "location": {
+      "lat": 13.7200582,
+      "lng": 100.5689202
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.6970000000000001,
+    "category": "Restaurant"
+  },
+  {
+    "id": 170,
+    "name": "Watercress",
+    "location": {
+      "lat": 13.7202967,
+      "lng": 100.5691186
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.71,
+    "category": "Restaurant"
+  },
+  {
+    "id": 171,
+    "name": "Sri Thai Delicatessen",
+    "location": {
+      "lat": 13.7205521,
+      "lng": 100.5690166
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.7229999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 172,
+    "name": "KUU&Sake Bar",
+    "location": {
+      "lat": 13.7202119,
+      "lng": 100.5688505
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.7359999999999998,
+    "category": "Restaurant"
+  },
+  {
+    "id": 173,
+    "name": "Gloria Jean's coffee",
+    "location": {
+      "lat": 13.7211227,
+      "lng": 100.5690461
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.7490000000000001,
+    "category": "Restaurant"
+  },
+  {
+    "id": 174,
+    "name": "Red mango",
+    "location": {
+      "lat": 13.7211488,
+      "lng": 100.5692849
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.762,
+    "category": "Restaurant"
+  },
+  {
+    "id": 175,
+    "name": "Tessa cafe dessert",
+    "location": {
+      "lat": 13.7211149,
+      "lng": 100.5694432
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.7749999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 176,
+    "name": "Homu icecream",
+    "location": {
+      "lat": 13.7203384,
+      "lng": 100.5689335
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.7879999999999998,
+    "category": "Restaurant"
+  },
+  {
+    "id": 177,
+    "name": "Brasserie 9",
+    "location": {
+      "lat": 13.7047813,
+      "lng": 100.5019868
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.8009999999999997,
+    "category": "Restaurant"
+  },
+  {
+    "id": 178,
+    "name": "Capri",
+    "location": {
+      "lat": 13.7049102,
+      "lng": 100.5020685
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.8140000000000001,
+    "category": "Restaurant"
+  },
+  {
+    "id": 179,
+    "name": "บ้านคณิตฐา",
+    "location": {
+      "lat": 13.7046319,
+      "lng": 100.5017283
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.827,
+    "category": "Restaurant"
+  },
+  {
+    "id": 180,
+    "name": "Fuji",
+    "location": {
+      "lat": 13.779768,
+      "lng": 100.5450323
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.8399999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 181,
+    "name": "shun no mai",
+    "location": {
+      "lat": 13.7190938,
+      "lng": 100.5853214
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.8529999999999998,
+    "category": "Restaurant"
+  },
+  {
+    "id": 182,
+    "name": "Hakone",
+    "location": {
+      "lat": 13.7190005,
+      "lng": 100.5854047
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.8660000000000001,
+    "category": "Restaurant"
+  },
+  {
+    "id": 183,
+    "name": "Hinaya",
+    "location": {
+      "lat": 13.7189393,
+      "lng": 100.5855012
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.879,
+    "category": "Restaurant"
+  },
+  {
+    "id": 184,
+    "name": "tazu shabu",
+    "location": {
+      "lat": 13.7801668,
+      "lng": 100.545044
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.8919999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 185,
+    "name": "yuu bbq",
+    "location": {
+      "lat": 13.7800952,
+      "lng": 100.54504
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.9049999999999998,
+    "category": "Restaurant"
+  },
+  {
+    "id": 186,
+    "name": "Kourakuen",
+    "location": {
+      "lat": 13.7187983,
+      "lng": 100.5856333
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.9179999999999997,
+    "category": "Restaurant"
+  },
+  {
+    "id": 187,
+    "name": "CoCo ICHIBANYA",
+    "location": {
+      "lat": 13.7800462,
+      "lng": 100.5451965
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.931,
+    "category": "Restaurant"
+  },
+  {
+    "id": 188,
+    "name": "italian job restaurant",
+    "location": {
+      "lat": 13.7797357,
+      "lng": 100.5450065
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.944,
+    "category": "Restaurant"
+  },
+  {
+    "id": 189,
+    "name": "เตี๋ยวหน้าคลัง",
+    "location": {
+      "lat": 13.779875,
+      "lng": 100.5450105
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.9569999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 190,
+    "name": "kinniku gyudon restaurant",
+    "location": {
+      "lat": 13.7800625,
+      "lng": 100.54504
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.9699999999999998,
+    "category": "Restaurant"
+  },
+  {
+    "id": 191,
+    "name": "UCC Cafe",
+    "location": {
+      "lat": 13.7189314,
+      "lng": 100.5851082
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.9830000000000001,
+    "category": "Restaurant"
+  },
+  {
+    "id": 192,
+    "name": "after you",
+    "location": {
+      "lat": 13.7798315,
+      "lng": 100.5452473
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.996,
+    "category": "Restaurant"
+  },
+  {
+    "id": 193,
+    "name": "secret recipe",
+    "location": {
+      "lat": 13.7796874,
+      "lng": 100.5450493
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.5089999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 194,
+    "name": "MK Restaurants",
+    "location": {
+      "lat": 13.7437059,
+      "lng": 100.5015832
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.5219999999999998,
+    "category": "Restaurant"
+  },
+  {
+    "id": 195,
+    "name": "Black Canyon",
+    "location": {
+      "lat": 13.7439203,
+      "lng": 100.5009289
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.5349999999999997,
+    "category": "Restaurant"
+  },
+  {
+    "id": 196,
+    "name": "94 Coffee",
+    "location": {
+      "lat": 13.7669075,
+      "lng": 100.4437867
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.548,
+    "category": "Restaurant"
+  },
+  {
+    "id": 197,
+    "name": "Seefah",
+    "location": {
+      "lat": 13.7669518,
+      "lng": 100.4436714
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.5609999999999999,
+    "category": "Restaurant"
+  },
+  {
+    "id": 198,
+    "name": "Swensen's ",
+    "location": {
+      "lat": 13.7670846,
+      "lng": 100.4434515
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.5739999999999998,
+    "category": "Restaurant"
+  },
+  {
+    "id": 199,
+    "name": "Kimju",
+    "location": {
+      "lat": 13.7669335,
+      "lng": 100.4433925
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.5869999999999997,
+    "category": "Restaurant"
+  },
+  {
+    "id": 200,
+    "name": "Greyhound Café & Ground-héy ",
+    "location": {
+      "lat": 13.7675098,
+      "lng": 100.4435636
+    },
+    "open_time": 660,
+    "close_time": 1320,
+    "duration": 60,
+    "fee": 15.0,
+    "preference": 0.6000000000000001,
+    "category": "Restaurant"
+  }
+]
