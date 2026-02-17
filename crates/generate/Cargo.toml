@@ -1,0 +1,13 @@
+[package]
+name = "generate"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "generate"
+path = "src/main.rs"
+
+[dependencies]
+core = { path = "../core" }
+serde_json = "1"
+rand = "0.8"
